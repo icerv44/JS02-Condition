@@ -5,7 +5,7 @@ do {
   const passW = "";
   let user, passWord;
 
-  input === "" || input * 1 === 0 ? (user = "guest") : "";
+  input === "" || input === null ? (user = "guest") : "";
   if (input === "codecamp") {
     passW = prompt("Input Password");
 
