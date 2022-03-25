@@ -1,4 +1,4 @@
-const input = "Input Numberlic : ";
+const input = prompt("Input Numberlic : ");
 
 if (input > 0) {
   alert("Positive number");
